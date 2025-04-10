@@ -1,1 +1,0 @@
-# supq.github.io
