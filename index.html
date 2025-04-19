@@ -600,7 +600,60 @@
             margin-bottom: 10px;
             text-shadow: 0 0 3px rgba(200, 160, 255, 0.5);
         }
-    </style>
+    
+@media (max-width: 768px) {
+    .nav-panel {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .first-content h1 {
+        font-size: 2rem;
+    }
+
+    .first-content p,
+    .download-header p,
+    .feature-card p,
+    .updates li,
+    .about-panel p {
+        font-size: 1rem;
+    }
+
+    .download-main {
+        grid-template-columns: 1fr;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    .download-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .credits-panel {
+        width: 90%;
+    }
+
+    .download-image {
+        max-width: 90%;
+        margin-top: 0;
+    }
+
+    .popup-content {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .loader {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+</style>
 </head>
 <body>
     <div class="background"></div>
