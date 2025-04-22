@@ -15,7 +15,7 @@
         body {
             font-family: 'Inter', 'Arial', sans-serif;
             min-height: 100vh;
-            overflow: hidden;
+            overflow: auto;
             background: #000;
         }
 
@@ -175,7 +175,7 @@
 
         /* Blur effect when popup or loader is active */
         body.popup-active {
-            overflow: hidden;
+            overflow: auto;
         }
 
         body.popup-active > *:not(.popup):not(.loading-overlay) {
@@ -412,7 +412,7 @@
             text-align: center;
             backdrop-filter: blur(5px);
             position: relative;
-            overflow: hidden;
+            overflow: auto;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
@@ -515,7 +515,7 @@
             text-align: center;
             backdrop-filter: blur(5px);
             position: relative;
-            overflow: hidden;
+            overflow: auto;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
